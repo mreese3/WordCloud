@@ -1,0 +1,40 @@
+﻿Build started 11/24/2015 10:04:26 AM.
+     1>Project "C:\Users\ndifeo\Desktop\Cirrus\Implementation\integrationtest\WordMapLayout\WordMapLayout\WordMapLayout.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\ndifeo\Desktop\Cirrus\Implementation\integrationtest\WordMapLayout\../../include /IC:\Users\ndifeo\Desktop\Cirrus\Implementation\integrationtest\WordMapLayout\../../interface /IC:\Users\ndifeo\Desktop\Cirrus\Implementation\integrationtest\WordMapLayout\../../ProcessingLayer/include /IC:\Users\ndifeo\Desktop\Cirrus\Implementation\integrationtest\WordMapLayout\../../ModelLayer/include /IC:\Users\ndifeo\Desktop\Cirrus\Implementation\integrationtest\WordMapLayout\../../ProcessingLayer/interface /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\ModelLayer\src\DocList.cpp ..\..\..\ModelLayer\src\FreqList.cpp ..\..\..\ModelLayer\src\MapItem.cpp ..\..\..\ModelLayer\src\Point.cpp ..\..\..\ModelLayer\src\Size.cpp ..\..\..\ModelLayer\src\WordCount.cpp ..\..\..\ModelLayer\src\WordMap.cpp ..\..\..\ProcessingLayer\src\LatexUtil.cpp ..\..\..\ProcessingLayer\src\WordMapMaker.cpp
+         WordMapMaker.cpp
+         LatexUtil.cpp
+     1>c:\users\ndifeo\desktop\cirrus\implementation\processinglayer\src\latexutil.cpp(114): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+         WordMap.cpp
+         WordCount.cpp
+     1>c:\users\ndifeo\desktop\cirrus\implementation\modellayer\src\wordcount.cpp(60): warning C4018: '<' : signed/unsigned mismatch
+         Size.cpp
+         Point.cpp
+         MapItem.cpp
+     1>c:\users\ndifeo\desktop\cirrus\implementation\modellayer\src\mapitem.cpp(64): warning C4018: '<' : signed/unsigned mismatch
+         FreqList.cpp
+     1>c:\users\ndifeo\desktop\cirrus\implementation\modellayer\src\freqlist.cpp(126): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ndifeo\desktop\cirrus\implementation\modellayer\src\freqlist.cpp(170): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\ndifeo\desktop\cirrus\implementation\modellayer\src\freqlist.cpp(174): warning C4018: '<' : signed/unsigned mismatch
+         DocList.cpp
+         Generating Code...
+     1>c:\users\ndifeo\desktop\cirrus\implementation\modellayer\src\freqlist.cpp(84): warning C4715: 'FreqList::getFirst' : not all control paths return a value
+     1>c:\users\ndifeo\desktop\cirrus\implementation\modellayer\src\freqlist.cpp(155): warning C4715: 'FreqList::remove' : not all control paths return a value
+     1>c:\users\ndifeo\desktop\cirrus\implementation\modellayer\src\freqlist.cpp(95): warning C4715: 'FreqList::getLast' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ndifeo\Desktop\Cirrus\Implementation\integrationtest\WordMapLayout\Debug\WordMapLayout.exe" /INCREMENTAL /NOLOGO randomlayout.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ndifeo\Desktop\Cirrus\Implementation\integrationtest\WordMapLayout\Debug\WordMapLayout.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ndifeo\Desktop\Cirrus\Implementation\integrationtest\WordMapLayout\Debug\WordMapLayout.lib" /MACHINE:X86 Debug\DocList.obj
+         Debug\FreqList.obj
+         Debug\MapItem.obj
+         Debug\Point.obj
+         Debug\Size.obj
+         Debug\WordCount.obj
+         Debug\WordMap.obj
+         Debug\LatexUtil.obj
+         Debug\WordMapMaker.obj
+         Debug\WordMapLayout.obj
+         WordMapLayout.vcxproj -> C:\Users\ndifeo\Desktop\Cirrus\Implementation\integrationtest\WordMapLayout\Debug\WordMapLayout.exe
+     1>Done Building Project "C:\Users\ndifeo\Desktop\Cirrus\Implementation\integrationtest\WordMapLayout\WordMapLayout\WordMapLayout.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.74

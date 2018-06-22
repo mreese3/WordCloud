@@ -1,0 +1,5 @@
+pants;10
+yellow;7
+pink;5
+seven;0
+eat;22

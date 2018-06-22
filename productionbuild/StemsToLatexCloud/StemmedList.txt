@@ -1,0 +1,12 @@
+Stem:
+grease;3
+greasey;1
+greased;1
+greasing;1
+Stem:
+tree;4
+trees;2
+treed;1
+Stem:
+awake;1
+awakes;1
